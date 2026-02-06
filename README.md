@@ -33,6 +33,9 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 --------
 
+### Dataset
+The datasets used in this project were provided as a part of a learning resource and are not included in this repository.
+
 ## 🛡️ License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
