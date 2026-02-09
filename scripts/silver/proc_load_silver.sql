@@ -239,11 +239,12 @@ BEGIN
 
 		END TRY
 		BEGIN CATCH
-			PRINT '================================'
-			PRINT 'ERROR OCCURRE DURING LOADING BRONZE LAYER'
-			PRINT 'Error Message' + ERROR_MESSAGE();
-			PRINT 'Error Message' + CAST(ERROR_NUMBER() AS NVARCHAR);
-			PRINT 'Error Message' + CAST(ERROR_STATE() AS NVARCHAR);
-			PRINT '================================'
-        END CATCH
+		PRINT '=========================================='
+		PRINT 'ERROR OCCURED DURING LOADING BRONZE LOAD'
+		PRINT 'Error Message' + ERROR_MESSAGE();
+		PRINT 'Error Number' + CAST (ERROR_NUMBER() AS NVARCHAR);
+		PRINT 'Error State' + CAST (ERROR_STATE() AS NVARCHAR);
+		PRINT 'Error Line' + CAST(ERROR_LINE() AS NVARCHAR);
+		PRINT '=========================================='
+	    END CATCH
 	END
