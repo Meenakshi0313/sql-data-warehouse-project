@@ -44,7 +44,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 Hi there! I'm **Meenakshi Singh**, an aspiring Data Analyst with a strong foundation in SQL and Excel and a keen interest in data analytics. 
 I enjoy working with structured data, understanding relationships between tables, and transforming raw data into meaningful business insights. 
-This project reflects my hands-on approach to learning, where I applied data warehousing and anlytical concepts to solve real-world data problems.
+This project reflects my hands-on approach to learning, where I applied data warehousing and analytical concepts to solve real-world data problems.
 
 
 
